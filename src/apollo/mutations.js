@@ -8,12 +8,3 @@ export const ADD_TODO = gql`
     }
   }
 `;
-
-export const GET_TODOS = gql`
-  {
-    todos {
-      id
-      type
-    }
-  }
-`;

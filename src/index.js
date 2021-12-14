@@ -7,7 +7,7 @@ import {
   useQuery,
 } from "@apollo/client";
 import { AddTodo } from "./components/AddTodo";
-import { GET_TODOS } from "./apollo/mutations";
+import { GET_TODOS } from "./apollo/queries";
 
 const client = new ApolloClient({
   uri: "https://sxewr.sse.codesandbox.io/",
